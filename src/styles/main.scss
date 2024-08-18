@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    // outline: 1px solid black;
+}
+
+header,
+footer {
+    min-height: 15vh;
+    outline: 1px solid $bc;
+}
+
+main {
+    $maxWidth: 100vw;
+    $marginX: 5vw;
+
+    outline: 1px solid $bc;
+
+    padding: 8px;
+
+    min-height: 70vh;
+    width: $maxWidth - $marginX * 2;
+    margin: 16px $marginX 16px $marginX;
+}

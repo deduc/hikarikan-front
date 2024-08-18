@@ -1,6 +1,8 @@
 <script setup lang="ts">
-import NavBar from './components/NavBar/NavBar.vue'
+import { RouterView } from 'vue-router'
 
+import NavBar from './sharedComponents/NavBar/NavBar.vue'
+import Contacto from './sharedComponents/Contacto/Contacto.vue'
 </script>
 
 <template>
@@ -8,7 +10,9 @@ import NavBar from './components/NavBar/NavBar.vue'
         <NavBar></NavBar>
     </header>
 
-    <RouterView />
-</template>
+    <main>
+        <RouterView />
+    </main>
 
-<style scoped></style>
+    <Contacto></Contacto>
+</template>
