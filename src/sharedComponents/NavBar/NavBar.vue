@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import { text, links } from "@/constants/constants";
+import { text, links } from "@/core/constants/textos";
 
 const options: string[] = ["Karate", "Kobudo", "añadir mas artes"];
 const inputText: string = "¿Qué es el...?";

@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { footerText } from "@/constants/constants";
+import { footerText } from "@/core/constants/textos";
 </script>
 
 <style lang="scss">
