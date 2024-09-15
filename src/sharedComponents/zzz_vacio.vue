@@ -1,9 +1,7 @@
 <template></template>
 
 <script setup lang="ts">
-const props = defineProps<{
-    homeText: any;
-}>();
+import { } from "@/core/constants/textos";
 </script>
 
 <style scoped lang="scss"></style>
